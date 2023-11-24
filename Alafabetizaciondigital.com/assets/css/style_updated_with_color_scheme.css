@@ -1,0 +1,25 @@
+
+/* Estilos base */
+body {
+  /* ... */
+}
+
+/* Estilos para el modo claro */
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #ffffff;
+    color: #000000;
+    /* Otros estilos para el modo claro */
+  }
+  /* Puedes añadir más estilos para elementos específicos en modo claro aquí */
+}
+
+/* Estilos para el modo oscuro */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+    color: #ffffff;
+    /* Otros estilos para el modo oscuro */
+  }
+  /* Puedes añadir más estilos para elementos específicos en modo oscuro aquí */
+}
